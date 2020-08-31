@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-wrapper">
+        <input type="number" class="input min" placeholder="от" />
+        <input type="number" id="max" class="input max" placeholder="до" />
+        <label for="max" id="label-max"></label>
+      </div>
+      <button class="button random">Получить число</button>
+      <button class="button reset">Очистить</button>
+      <button class="button reload">перезагрузить</button>
+      <div class="output">Полученное число</div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
